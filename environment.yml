@@ -4,4 +4,6 @@ dependencies:
   - matplotlib
   - pillow
   - jupyter
+  - pyqt
+  - ipython
 
