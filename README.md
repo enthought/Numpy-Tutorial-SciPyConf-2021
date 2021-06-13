@@ -25,7 +25,7 @@ To be able to run the examples, demos and exercises, you must have the following
 - numpy 1.17+
 - matplotlib 3.3+
 - ipython 7.16+ (for running, experimenting and doing exercises)
-- pyqt5 5.14+
+- pyqt 5.14+
 - jupyter 1.0+
 
 If you are using Anaconda, you can create an environment with the necessary packages with:
