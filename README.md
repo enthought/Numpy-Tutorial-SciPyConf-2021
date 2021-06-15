@@ -29,18 +29,24 @@ To be able to run the examples, demos and exercises, you must have the following
 - pillow 7.2+
 - pyqt 5.14+
 
-If you are using Anaconda, you can create an environment with the necessary packages with:
+If you are using Anaconda, you can use the Anaconda Prompt (Windows) or Terminal.app (macOS) to create an environment with the necessary packages:
 
-```
-$ conda create -n numpy-tutorial ipython jupyter matplotlib numpy pillow pyqt 
-```
+1. Open the Anaconda Prompt or Terminal.app using the below instructions:
+    - **Windows**: Click Start and search for "Anaconda Prompt". Click on the application to launch a new Anaconda Prompt window.
+    - **macOS**: Open Spotlight Search (using Cmd+Space) and type "Terminal.app". Click on the application to launch a new Terminal.app window.   
 
-To test your installation, please execute the `check_env.py` script in the environment where you have installed the requirements.  For example, if you created an Anaconda environment using the instructions above, open up a terminal (or command prompt), navigate to where you have this GitHub repository, and type:
+2. Create a new Anaconda virtual environment by executing the below command in the application window you opened in step 1 above.
 
-```
-$ conda activate numpy-tutorial
-$ python check_env.py
-```
+    ```
+    $ conda create -n numpy-tutorial ipython jupyter matplotlib numpy pillow pyqt 
+    ```
+
+3. To test your installation, please execute the `check_env.py` script in the environment where you have installed the requirements. If you created an Anaconda environment using the instructions above, keep the application window that you opened in step 1 active (or launch the platform specific application again -- Anaconda Prompt for Windows or Terminal.app for macOS), navigate to where you have this GitHub repository, and type:
+
+    ```
+    $ conda activate numpy-tutorial
+    $ python check_env.py
+    ```
 
 You should see a window pop up with a plot that looks vaguely like a smiley face.
 
