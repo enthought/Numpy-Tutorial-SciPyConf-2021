@@ -22,16 +22,17 @@ If you don't already have a working python distribution, you may download Anacon
 
 To be able to run the examples, demos and exercises, you must have the following packages installed:
 
-- numpy 1.17+
-- matplotlib 3.3+
 - ipython 7.16+ (for running, experimenting and doing exercises)
-- pyqt 5.14+
 - jupyter 1.0+
+- matplotlib 3.3+
+- numpy 1.17+
+- pillow 7.2+
+- pyqt 5.14+
 
 If you are using Anaconda, you can create an environment with the necessary packages with:
 
 ```
-$ conda create -n numpy-tutorial numpy matplotlib ipython pyqt
+$ conda create -n numpy-tutorial ipython jupyter matplotlib numpy pillow pyqt 
 ```
 
 To test your installation, please execute the `check_env.py` script in the environment where you have installed the requirements.  For example, if you created an Anaconda environment using the instructions above, open up a terminal (or command prompt), navigate to where you have this GitHub repository, and type:
