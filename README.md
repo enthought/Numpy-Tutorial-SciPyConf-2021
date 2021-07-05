@@ -27,7 +27,7 @@ To be able to run the examples, demos and exercises, you must have the following
 - matplotlib 3.3+
 - numpy 1.17+
 - pillow 7.2+
-- pyqt 5.14+
+- pyqt 5.9+
 
 If you are using Anaconda, you can use the Anaconda Prompt (Windows) or Terminal.app (macOS) to create an environment with the necessary packages:
 
