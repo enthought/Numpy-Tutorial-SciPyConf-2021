@@ -27,7 +27,7 @@ To be able to run the examples, demos and exercises, you must have the following
 - matplotlib 3.3+
 - numpy 1.17+
 - pillow 7.2+
-- pyqt 5.14+
+- pyqt 5.9+
 
 If you are using Anaconda, you can use the Anaconda Prompt (Windows) or Terminal.app (macOS) to create an environment with the necessary packages:
 
@@ -67,4 +67,4 @@ It will create a new folder named `Numpy-Tutorial-SciPyConf-2021/` with all the 
 
 ## Questions? Problems?
 
-You may post messages to the `#tutorial_numpy` Slack channel for this tutorial at in the official Slack team: [https://scipy2021.slack.com](https://scipy2021.slack.com) .
+You may post messages to the `#tutorial-intro-to-numerical-computing-with-numpy` Slack channel for this tutorial at in the official Slack team: [https://scipy2021.slack.com](https://scipy2021.slack.com) .
