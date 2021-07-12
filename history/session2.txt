@@ -1,0 +1,99 @@
+SciPy 2021 Tutorial: Introduction to Numerical Computing With NumPy
+Presented by: Logan Thomas, Enthought, Inc.
+Monday, July 12th 2021.
+
+# Session 2
+
+a = np.arange(6) + np.arange(60, step=10).reshape(6,1)
+a
+a[0]
+a[0, 3:5]
+a[4:]
+a[4:, 4:]
+a[:, 2]
+a[2::2, :]
+a[2::2, 0::2]
+a[2::2, ::2]
+a = np.array([0,1,2,3,4])
+a
+a[-2:] = 99
+a
+a[-2:] = [55, 33]
+a
+a[-2:] = [55, 33, 77]
+clear
+a = np.arange(25)
+a
+a = a.reshape(5,5)
+a
+a[4]
+a[4, :]
+a[-1]
+a[-1, :]
+yellow = a[-1, :]
+yellow
+a[:,::2]
+a[:, 1::2]
+red = a[:, 1::2]
+red
+a[1::2 , ]
+a[1::2, ::2]
+a[1::2, :3:2]
+blue = a[1::2, :3:2]
+blue
+# yellow = a[-1, :]   red = a[:, 1::2]      blue = a[1::2, :3:2]
+a = np.array([0,1,2,3,4])
+a
+b = a[2:4]
+b
+b[0] = 10
+b
+a
+np.shares_memory(a,b)
+b = a[2:4].copy()
+a
+clear
+a = np.array([0,1,2,3,4])
+a
+b = a[2:4].copy()
+b[0] = 10
+b
+a
+
+# Calc return exercise (15 min)
+pwd
+cd desktop
+
+import numpy as np
+a = np.arange(0,80,10)
+a
+a[[1,2-3]]
+a[[1,2,-3]]
+a[[1,2,5]]
+a[[1,2,5,5,5,5,5]]
+a
+a[[1,2,5]] = 999
+a
+a
+a[[1,2,3]]
+a[np.array([1,2,5])]
+a[1,2,3]
+a = np.arange(0,80,10)
+a
+y = a[[1,2,5]]
+y
+np.shares_memory(a,y)
+y[0] = -777
+y
+a
+a
+mask = np.array([0,1,1,0,0,1,0,0], dtype=bool)
+mask
+a[mask]
+a > 30
+a[a > 30]
+mask = a > 30
+a[mask]
+
+# Break 2 (15 minutes)
+%history -f session2.txt

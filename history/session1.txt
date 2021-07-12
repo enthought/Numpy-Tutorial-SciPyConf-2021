@@ -1,0 +1,132 @@
+SciPy 2021 Tutorial: Introduction to Numerical Computing With NumPy
+Presented by: Logan Thomas, Enthought, Inc.
+Monday, July 12th 2021.
+
+# Session 1
+
+a = [1, 2, 3, 4, 5]
+b = [2, 4, 6, 8, 10]
+a + b
+result = []
+for a_val, b_val in zip(a,b):
+    result.append(a_val + b_val)
+result
+import numpy as np
+np_a = np.array([1,2,3,4,5])
+np_b = np.array([2,4,6,8,10])
+np_a + np+b
+np_a + np_b
+clear
+np_a
+np_.dtype
+np_a.dtype
+np_a
+np_a[0] = 10.5
+np_a
+# universal function (ufunc(
+# universal function (ufunc)
+np.sin(np_a)
+np.cos(np_a):
+type(np_a)
+a = np.array([[1,2,3],[4,5,6]])
+a
+a[1,1]
+l = a.tolist()
+l
+l[1,1]
+l[1]
+l[1][1]
+clear
+np.array([0, 1, 2, 3])
+np.array(range(5))
+a = np.array([0,1,2,3])
+a
+print(a)
+type(a)
+a.dtype
+a = np.array([1,2,3], dtype='int32')
+a
+a.dtype
+a
+a.astype('int64')
+b = a.astype('int64')
+b.dtype
+a
+b
+a.ndim
+a
+a = np.array([[1,2,3], [4,5,6]])
+a
+a.ndim
+a.shape
+a.itemsize
+a
+a.size
+a.shape
+a.size
+a.dtype
+# 8 bits = 1 byes -> 8 bytes in a 64 bit int
+a
+a.itemsize
+a.nbytes
+6*8
+a = np.array([1, 2, 3, 4,])
+b = np.array([2, 3, 4, 5])
+a + b
+a * b
+a ** b
+np.array(range(5))
+np.arange(5)
+x = np.arange(11.0)
+x
+x.dtype
+c = np.arange(11)
+c
+c.dtype
+x
+x * 5
+np.pi
+np.e
+x = (2.0 * np.pi) / 10.0
+x
+x = (2.0 * np.pi) / 10.0
+c = (2.0 * np.pi) / 10.0
+c
+x = np.arange(11.0)
+x
+c * x
+x = c * x
+x
+x *= c  # x = c * x
+x = np.arange(11.0)
+x
+np.sin(x)
+x
+x = np.arange(11.0)
+x
+x[0]
+a = np.array([0,1,2,3])
+a
+a[0]
+a[0] = 10
+a
+a.dtype
+a[0] = 10.6
+type(10.6)
+a
+a = np.array([0, 1, 2, 3], dtype='float64')
+a
+a[0] = 10.6
+a
+a = np.array([0,1,2,3])
+a
+a.dtype
+a.fill(5)
+a
+a.fill(-4.8)
+a
+a.dtype
+clear
+
+# Break #1 (5 min)
+%history -f session1.txt

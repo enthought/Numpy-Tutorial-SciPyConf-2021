@@ -1,0 +1,93 @@
+SciPy 2021 Tutorial: Introduction to Numerical Computing With NumPy
+Presented by: Logan Thomas, Enthought, Inc.
+Monday, July 12th 2021.
+
+# Session 3
+
+import numpy as np
+a = np.arange(6) + np.arange(60, step=10).reshape(6,1)
+a
+np.diagonal(a)
+np.diagonal(a, 1)
+rows = [0, 1, 2, 3, 4]
+cols = [1, 2, 3, 4, 5]
+a[rows, cols]
+list(zip(rows, cols))
+5%2
+a
+# Blue (left to right - [10,6,3,19] )
+a = np.arange(25).reshape(5,5)
+a
+a[ [2,1,0,3], [0,1,3,4]  ]
+# Blue (top to bottom - [3, 6, 10, 19])
+rows = [0, 1, 2, 3]
+cols = [3, 1, 0, 4]
+a[rows, cols]
+a
+a % 3
+a % 3 == 0
+mask = a%3 == 0
+mask
+a[mask]
+a[a%3 == 0]
+type(1)
+type(1.0)
+type(1.)
+np.linspace(0,1,5)
+np.linspace(0,1)
+np.linspace(0,1).shape
+np.logspcae(0,1,5)
+np.logspace(0,1,5)
+10**1
+10**0
+np.logspace(0,1,5, base=2)
+clear
+# Rule 1
+a = np.array([1,2,3])
+b = np.array([5,6])
+a + b
+b = np.array([5])
+a + b
+a + 5
+b = np.array([5,5,5])
+a + b
+a + 2.0
+a + 5.0
+# Rule 2
+a = np.array([1,1,1])
+b = np.array([2,3,4])
+a * b
+a+b
+a/b
+a-b
+np.dot(a,b)
+np.matmul(a,b)
+a@b
+# Rule 3
+a = np.arange(6).reshape(2,3)
+a
+np.dot?
+a
+a.mean()
+0+1+2+3+4+5
+15/6
+a.mean(axis=0)
+a.shape
+a.mean(axis=1)
+# Rule 4
+np.nan
+5 + np.nan
+5 * np.nan
+np.array([1,2,3]) * np.nan
+np.array([1,2,3]) + np.nan
+a = np.array([1, 2, np.nan, 3)]
+a = np.array([1, 2, np.nan, 3])
+a
+a.mean()
+np.nanmean(a)
+1+2+3
+6/3
+6/4
+
+# Break 3 (5 min)
+%history -f session3.txt
