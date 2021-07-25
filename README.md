@@ -1,6 +1,7 @@
 # SciPy 2021 Tutorial: Introduction to Numerical Computing With NumPy
 
 #### Presented by: Logan Thomas, [Enthought, Inc.](https://www.enthought.com)
+#### YouTube recording of live tutorial [here](https://youtu.be/8L1MgStSZhk)
 
 This repository contains all the material needed by students registered for the Numpy tutorial of SciPy 2021 on Monday, July 12th 2021.
 
